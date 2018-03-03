@@ -1,4 +1,4 @@
-package states;
+package ru.kpecmuk.patterns.state.states;
 
 /**
  * @author kpecmuk

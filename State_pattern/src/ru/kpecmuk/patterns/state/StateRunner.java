@@ -1,6 +1,8 @@
+package ru.kpecmuk.patterns.state;
+
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
-import states.Open;
+import ru.kpecmuk.patterns.state.states.Open;
 
 /**
  * @author kpecmuk
