@@ -12,7 +12,7 @@ import java.util.List;
  * @since 03.03.2018
  */
 
-public final class MeteoStation implements Observed {
+public class MeteoStation implements Observed {
     private static final Logger log = LoggerFactory.getLogger(MeteoStation.class);
 
     private final List<Observer> observers;
@@ -28,6 +28,7 @@ public final class MeteoStation implements Observed {
     public void setWeather(int temperature, int pressure) {
         this.temperature = temperature;
         this.pressure = pressure;
+        notifyObservers();
     }
 
     @Override
