@@ -1,3 +1,5 @@
+package ru.kpecmuk.patterns.decorator;
+
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
@@ -6,7 +8,7 @@ import org.slf4j.LoggerFactory;
  * @since 18.02.2018
  */
 
-public class DecoratorDeveloper implements Decorator {
+public final class DecoratorDeveloper implements Decorator {
     private static final Logger log = LoggerFactory.getLogger(DecoratorDeveloper.class);
 
     private Decorator decorator;
