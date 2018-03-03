@@ -10,7 +10,7 @@ import java.util.Date;
  * @since 02.03.2018
  */
 
-public class DigitalWatch implements Watch {
+public final class DigitalWatch implements Watch {
     private static final Logger log = LoggerFactory.getLogger(DigitalWatch.class);
 
     @Override

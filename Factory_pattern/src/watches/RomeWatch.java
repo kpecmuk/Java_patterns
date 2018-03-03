@@ -8,7 +8,7 @@ import org.slf4j.LoggerFactory;
  * @since 02.03.2018
  */
 
-public class RomeWatch implements Watch {
+public final class RomeWatch implements Watch {
     private static final Logger log = LoggerFactory.getLogger(RomeWatch.class);
 
     @Override

@@ -10,7 +10,7 @@ import watches.Watch;
  * @since 02.03.2018
  */
 
-public class DigitalWatchMaker implements WatchMaker {
+public final class DigitalWatchMaker implements WatchMaker {
     private static final Logger log = LoggerFactory.getLogger(DigitalWatchMaker.class);
 
     @Override
