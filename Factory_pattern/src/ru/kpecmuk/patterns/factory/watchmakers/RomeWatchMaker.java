@@ -1,9 +1,9 @@
-package watchmakers;
+package ru.kpecmuk.patterns.factory.watchmakers;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
-import watches.RomeWatch;
-import watches.Watch;
+import ru.kpecmuk.patterns.factory.watches.RomeWatch;
+import ru.kpecmuk.patterns.factory.watches.Watch;
 
 /**
  * @author kpecmuk

@@ -1,6 +1,6 @@
-package watchmakers;
+package ru.kpecmuk.patterns.factory.watchmakers;
 
-import watches.Watch;
+import ru.kpecmuk.patterns.factory.watches.Watch;
 
 /**
  * @author kpecmuk

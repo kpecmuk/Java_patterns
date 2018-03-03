@@ -1,4 +1,4 @@
-package watches;
+package ru.kpecmuk.patterns.factory.watches;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;

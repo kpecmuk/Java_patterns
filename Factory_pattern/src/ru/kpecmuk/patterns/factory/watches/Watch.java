@@ -1,4 +1,4 @@
-package watches;
+package ru.kpecmuk.patterns.factory.watches;
 
 /**
  * @author kpecmuk
