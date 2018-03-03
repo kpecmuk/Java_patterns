@@ -19,6 +19,7 @@
         <module>Factory_pattern</module>
         <module>State_pattern</module>
         <module>Strategy_pattern</module>
+        <module>Observer_pattern</module>
     </modules>
 
     <dependencies>
