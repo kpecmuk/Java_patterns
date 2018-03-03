@@ -1,8 +1,10 @@
+package ru.kpecmuk.patterns.strategy;
+
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
-import user_actions.Eat;
-import user_actions.Sleep;
-import user_actions.Work;
+import ru.kpecmuk.patterns.strategy.user_actions.Eat;
+import ru.kpecmuk.patterns.strategy.user_actions.Sleep;
+import ru.kpecmuk.patterns.strategy.user_actions.Work;
 
 /**
  * @author kpecmuk

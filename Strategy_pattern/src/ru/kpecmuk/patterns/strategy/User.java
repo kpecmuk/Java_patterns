@@ -1,6 +1,8 @@
-import user_actions.UserAction;
+package ru.kpecmuk.patterns.strategy;
+
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
+import ru.kpecmuk.patterns.strategy.user_actions.UserAction;
 
 /**
  * @author kpecmuk
