@@ -1,10 +1,10 @@
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
-import states.Work;
+import states.Open;
 
 /**
  * @author kpecmuk
- * @since 02.03.2018
+ * @since 18.02.2018
  */
 
 public class StateRunner {
@@ -12,9 +12,11 @@ public class StateRunner {
 
     public static void main(String[] args) {
 
-        Human human = new Human(new Work());
-        human.showState();
-        human.changeState();
-        human.showState();
+        Door door = new Door(new Open());
+
+        door.useDoor();
+
+        door.changeDoorState();
+        door.useDoor();
     }
 }

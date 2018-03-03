@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement />
+  <nodes>
+    <node x="67.55520833333333" y="202.0">ru.kpecmuk.state_tutorial.Door</node>
+    <node x="129.76354166666667" y="370.0">ru.kpecmuk.state_tutorial.StateRunner</node>
+    <node x="179.0" y="101.0">ru.kpecmuk.state_tutorial.states.Open</node>
+    <node x="0.0" y="101.0">ru.kpecmuk.state_tutorial.states.Close</node>
+    <node x="93.79479166666667" y="0.0">ru.kpecmuk.state_tutorial.states.State</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="ru.kpecmuk.state_tutorial.StateRunner" target="ru.kpecmuk.state_tutorial.Door">
+      <point x="-56.33333333333334" y="-25.5" />
+      <point x="157.93020833333333" y="345.0" />
+      <point x="116.55520833333333" y="345.0" />
+      <point x="-49.0" y="59.0" />
+    </edge>
+    <edge source="ru.kpecmuk.state_tutorial.Door" target="ru.kpecmuk.state_tutorial.states.Open">
+      <point x="39.19999999999999" y="-59.0" />
+      <point x="204.75520833333331" y="177.0" />
+      <point x="203.5" y="177.0" />
+      <point x="-49.0" y="25.5" />
+    </edge>
+    <edge source="ru.kpecmuk.state_tutorial.states.Close" target="ru.kpecmuk.state_tutorial.states.State">
+      <point x="0.0" y="-25.5" />
+      <point x="73.5" y="76.0" />
+      <point x="112.16979166666667" y="76.0" />
+      <point x="-55.125" y="25.5" />
+    </edge>
+    <edge source="ru.kpecmuk.state_tutorial.Door" target="ru.kpecmuk.state_tutorial.states.Close">
+      <point x="-78.39999999999998" y="-59.0" />
+      <point x="87.15520833333335" y="177.0" />
+      <point x="73.5" y="177.0" />
+      <point x="0.0" y="25.5" />
+    </edge>
+    <edge source="ru.kpecmuk.state_tutorial.Door" target="ru.kpecmuk.state_tutorial.states.State">
+      <point x="-39.19999999999999" y="-59.0" />
+      <point x="126.35520833333334" y="177.0" />
+      <point x="157.5" y="177.0" />
+      <point x="157.5" y="76.0" />
+      <point x="148.91979166666667" y="76.0" />
+      <point x="-18.375" y="25.5" />
+    </edge>
+    <edge source="ru.kpecmuk.state_tutorial.StateRunner" target="ru.kpecmuk.state_tutorial.states.Open">
+      <point x="56.333333333333314" y="-25.5" />
+      <point x="270.59687499999995" y="345.0" />
+      <point x="287.753125" y="345.0" />
+      <point x="287.753125" y="177.0" />
+      <point x="301.5" y="177.0" />
+      <point x="49.0" y="25.5" />
+    </edge>
+    <edge source="ru.kpecmuk.state_tutorial.states.Open" target="ru.kpecmuk.state_tutorial.states.State">
+      <point x="0.0" y="-25.5" />
+      <point x="252.5" y="76.0" />
+      <point x="222.41979166666667" y="76.0" />
+      <point x="55.125" y="25.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="163.0" y="256.0" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Constructors</Category>
+    <Category>Methods</Category>
+    <Category>Properties</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
