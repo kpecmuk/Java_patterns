@@ -9,18 +9,14 @@
     <version>1.0-SNAPSHOT</version>
     <packaging>pom</packaging>
 
-    <properties>
-        <maven.compiler.source>1.8</maven.compiler.source>
-        <maven.compiler.target>1.8</maven.compiler.target>
-    </properties>
-
     <modules>
+        <module>Builder_pattern</module>
         <module>Decorator_pattern</module>
+        <module>Facade_pattern</module>
         <module>Factory_pattern</module>
         <module>State_pattern</module>
         <module>Strategy_pattern</module>
         <module>Observer_pattern</module>
-        <module>Builder_pattern</module>
     </modules>
 
     <dependencies>
@@ -52,6 +48,8 @@
                 <version>3.7.0</version>
                 <configuration>
                     <compilerVersion>1.8</compilerVersion>
+                    <source>1.8</source>
+                    <target>1.8</target>
                 </configuration>
             </plugin>
         </plugins>

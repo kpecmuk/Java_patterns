@@ -1,8 +1,8 @@
-*.iml
-.idea
-target
-test
+.idea/
+target/
+test/
 
+*.iml
 *.jar
 *.war
 *.ear
