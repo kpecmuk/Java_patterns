@@ -28,9 +28,8 @@ public class PictureViewer implements ImageViewer {
                 ImageAdapter imageAdapter = new ImageAdapter(format);
                 imageAdapter.watchImage(title, format);
                 break;
-
             default:
-                System.out.println("Format error");
+                System.out.println("Format " + format + " not supported");
                 break;
         }
     }
