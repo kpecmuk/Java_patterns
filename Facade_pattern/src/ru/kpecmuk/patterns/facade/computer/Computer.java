@@ -11,9 +11,9 @@ import org.slf4j.LoggerFactory;
 public class Computer {
     private static final Logger log = LoggerFactory.getLogger(Computer.class);
 
-    private Power power = new Power();
-    private HDD hdd = new HDD();
-    private DVDRom dvdRom = new DVDRom();
+    private final Power power = new Power();
+    private final HDD hdd = new HDD();
+    private final DVDRom dvdRom = new DVDRom();
 
     public void copy() {
 

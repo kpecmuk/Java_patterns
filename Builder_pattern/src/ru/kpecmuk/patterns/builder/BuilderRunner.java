@@ -15,9 +15,9 @@ public class BuilderRunner {
 
         Contact contact = new ContactBuilder()
                 .name("Alex")
+                .mail("zz@xx.yy")
                 .address("Yar")
-                .age(34)
+                .age(37)
                 .build();
-
     }
 }
